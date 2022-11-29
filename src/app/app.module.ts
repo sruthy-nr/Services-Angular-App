@@ -10,6 +10,7 @@ import { HttpClientModule } from "@angular/common/http";
 import { UserInfoDataComponent } from './user-info-data/user-info-data.component';
 import { ProductListComponent } from './product-list/product-list.component';
 import { UserDataComponent } from './user-data/user-data.component';
+import { TodoComponent } from './todo/todo.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { UserDataComponent } from './user-data/user-data.component';
     PublicApiLinksDataComponent,
     UserInfoDataComponent,
     ProductListComponent,
-    UserDataComponent
+    UserDataComponent,
+    TodoComponent
   ],
   imports: [
     BrowserModule,
