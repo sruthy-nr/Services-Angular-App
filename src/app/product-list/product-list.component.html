@@ -1,0 +1,28 @@
+
+<div class="container">
+    <div class="row">
+        <div class="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
+            <div class="row g-3 mt-3">
+                <div class="col col-12 col-sm-6 col-md-6 col-lg-4 col-xl-4 col-xxl-4" *ngFor="let i of product.products">
+                    <div class="card" style="width: 18rem;">
+                        <h5 class="card-title">{{i.title}}</h5>
+                          <img height="200px" width="200px" src={{i.thumbnail}} class="card-img-top" alt="...">
+                          <div class="card-body">
+                            <p class="card-text">{{i.description}}</p>
+                            <p class="card-text">Price:{{i.price}}</p>
+                            <p class="card-text">Discount:{{i.discountPercentage}}</p>
+                            <p class="card-text">Brand:{{i.brand}}</p>
+                            <p class="card-text">Category:{{i.category}}</p>
+                            <p class="card-text">Stock:{{i.stock}}</p>
+                            <p class="card-text">Rate:{{i.rating}}</p>
+                            <!-- <div  *ngFor="let j of i.images">
+                            <img height="200px" width="200px" src={{j}} class="card-img-top" alt="...">
+                            </div> -->
+                            <!-- <a href="#" class="btn btn-primary">ADD TO CART</a> -->
+                          </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
