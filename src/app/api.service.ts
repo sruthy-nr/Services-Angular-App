@@ -16,4 +16,7 @@ export class ApiService {
   fetchApiLinks=()=>{
     return this.http.get("https://api.publicapis.org/entries")
   }
+  fetchUserInfo=()=>{
+    return this.http.get("https://reqres.in/api/users?page=1")
+  }
 }

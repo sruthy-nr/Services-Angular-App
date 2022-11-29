@@ -7,13 +7,15 @@ import { PassengerDataComponent } from './passenger-data/passenger-data.componen
 import { UsPublicDataComponent } from './us-public-data/us-public-data.component';
 import { PublicApiLinksDataComponent } from './public-api-links-data/public-api-links-data.component';
 import { HttpClientModule } from "@angular/common/http";
+import { UserInfoDataComponent } from './user-info-data/user-info-data.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     PassengerDataComponent,
     UsPublicDataComponent,
-    PublicApiLinksDataComponent
+    PublicApiLinksDataComponent,
+    UserInfoDataComponent
   ],
   imports: [
     BrowserModule,
