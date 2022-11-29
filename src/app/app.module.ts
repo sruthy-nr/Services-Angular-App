@@ -8,6 +8,7 @@ import { UsPublicDataComponent } from './us-public-data/us-public-data.component
 import { PublicApiLinksDataComponent } from './public-api-links-data/public-api-links-data.component';
 import { HttpClientModule } from "@angular/common/http";
 import { UserInfoDataComponent } from './user-info-data/user-info-data.component';
+import { ProductListComponent } from './product-list/product-list.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { UserInfoDataComponent } from './user-info-data/user-info-data.component
     PassengerDataComponent,
     UsPublicDataComponent,
     PublicApiLinksDataComponent,
-    UserInfoDataComponent
+    UserInfoDataComponent,
+    ProductListComponent
   ],
   imports: [
     BrowserModule,
