@@ -1,0 +1,25 @@
+
+<div class="container">
+    <div class="row">
+        <div class="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
+            <div class="row g-3 mt-3">
+                <div class="col col-12 col-sm-6 col-md-6 col-lg-4 col-xl-4 col-xxl-4" *ngFor="let i of publicapilinks.entries">
+                    <div class="card" style="width: 18rem;">
+                        <h5 class="card-title">{{i.API}}</h5>
+                        <h5 class="card-title">{{i.Auth}}</h5>
+                          <!-- <img height="300px" width="200px" src={{j.logo}} class="card-img-top" alt="..."> -->
+                          <div class="card-body">
+                            <p class="card-text">{{i.Description}}</p>
+                            <a class="card-text">{{i.Link}}</a>
+                            <p class="card-text">Cors:{{i.Cors}}</p>
+                            <p class="card-text">{{i.Category}}</p>
+                            <!-- <a href="#" class="btn btn-primary">ADD TO CART</a> -->
+                            <p class="card-text">HTTPS:{{i.HTTPS}}</p>
+                          </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+</div>
