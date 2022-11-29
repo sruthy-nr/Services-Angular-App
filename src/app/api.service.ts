@@ -13,4 +13,7 @@ export class ApiService {
   fetchUsPublic=()=>{
     return this.http.get("https://datausa.io/api/data?drilldowns=Nation&measures=Population")
   }
+  fetchApiLinks=()=>{
+    return this.http.get("https://api.publicapis.org/entries")
+  }
 }
