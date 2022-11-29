@@ -1,0 +1,28 @@
+
+
+<div class="container">
+    <div class="row">
+        <div class="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
+            <div class="row g-3 mt-3">
+                <div class="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
+                    <table class="table table-borderless">
+                        <thead>
+                            <tr>
+                                <th scope="col">QUOTE</th>
+                                <th scope="col">AUTHOR</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr *ngFor="let i of quote.quotes ">
+                                <td>{{i.quote}}</td>
+                                <td>{{i.author}}</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <!-- <h5>Support:<a>{{userinfo['support'].url}}</a></h5>
+                    <h5>{{userinfo['support'].text}}</h5> -->
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
